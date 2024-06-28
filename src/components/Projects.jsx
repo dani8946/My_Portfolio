@@ -26,10 +26,15 @@ const Projects = () => {
                 <span classname="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Netflix-App">
+                       <div className="h-2/3">
+                         <h3 className="text-xl font-bold text-black">Netflix Clone</h3>
+                       </div>
+                      <div className="h-1/3">
                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white
                        test-gray-700 font-bold text-lg">
                         GitHub
                        </button>
+                       </div>
                     </a>
                 </div>
             </div>
@@ -43,10 +48,16 @@ const Projects = () => {
                 <span classname="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Glass-Morphism-Effect-LogIn-Form">
-                       <button className="text-center rounded-lg px-4 py-3 m-2 bg-white
+                       <div className="h-2/3">
+                         <h3 className="text-xl font-bold text-black">Glass Morphism LogIn Form</h3>
+                       </div>
+                       <div className="h-1/3">                      
+                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white
                        test-gray-700 font-bold text-lg">
                         GitHub
                        </button>
+                       </div>
+
                     </a>
                 </div>
             </div>
@@ -60,10 +71,15 @@ const Projects = () => {
                 <span classname="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/LungCancerRiskPrediction">
+                       <div className="h-2/3">
+                         <h3 className="text-xl font-bold text-black">Lung Cancer Risk and Type Prediction</h3>
+                       </div>
+                       <div className="h-1/3">
                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white
                        test-gray-700 font-bold text-lg">
                         GitHub
                        </button>
+                       </div>
                     </a>
                 </div>
             </div>
@@ -77,10 +93,15 @@ const Projects = () => {
                 <span classname="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/IGDTUWInternshipProject">
+                        <div className="h-2/3">
+                         <h3 className="text-xl font-bold text-black">Application of AR for Education</h3>
+                       </div>
+                       <div className="h-1/3">
                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white
                        test-gray-700 font-bold text-lg">
                         GitHub
                        </button>
+                       </div>
                     </a>
                 </div>
             </div>
@@ -94,10 +115,15 @@ const Projects = () => {
                 <span classname="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Optimization-of-Web-Page-based-on-Network-Bandwidth">
+                        <div className="h-2/3">
+                         <h3 className="text-xl font-bold text-black">WebPage Optimization based on Network Speed</h3>
+                       </div>
+                       <div className="h-1/3">
                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white
                        test-gray-700 font-bold text-lg">
                         GitHub
                        </button>
+                       </div>
                     </a>
                 </div>
             </div>
@@ -111,10 +137,15 @@ const Projects = () => {
                 <span classname="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Air-Canvas">
+                        <div className="h-2/3">
+                         <h3 className="text-xl font-bold text-black">Air Canvas using Python</h3>
+                       </div>
+                       <div className="h-1/3">
                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white
                        test-gray-700 font-bold text-lg">
                         GitHub
                        </button>
+                       </div>
                     </a>
                 </div>
             </div>
