@@ -1,7 +1,7 @@
 import React from 'react'
 import heroimage from '../assets/picofme.png'
 import { TypeAnimation } from 'react-type-animation'
-
+import PortfolioChatbot from '../components/chatbot'
 const hero = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8" id="home">
@@ -46,6 +46,7 @@ const hero = () => {
             </a>
         </div>
       </div>
+      <PortfolioChatbot/>
     </div>
   )
 }
