@@ -1,12 +1,12 @@
 // src/chatbot/Chatbot.js
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Chatbot from 'react-chatbot-kit';
 import 'react-chatbot-kit/build/main.css';
-import Draggable from 'react-draggable';
-import config from './config';
-import MessageParser from './messageparser';
-import ActionProvider from './actionprovider';
+import config from '../components/config';
+import MessageParser from '../components/messageparser';
+import ActionProvider from '../components/actionprovider';
 import chatbotIcon from '../assets/chat-bot.gif';
+import Draggable from 'react-draggable';
 
 const PortfolioChatbot = () => {
   const [showChatbot, setShowChatbot] = useState(false);
@@ -22,11 +22,20 @@ const PortfolioChatbot = () => {
     setShowIcon(true);
   };
 
+  const handleBotIconTouchStart = (e) => {
+    e.preventDefault(); // Prevents scrolling on touch devices
+    handleBotIconClick();
+  };
+
   return (
     <div>
       {showIcon && (
         <Draggable>
-          <button onClick={handleBotIconClick} className="chatbot-button">
+          <button 
+            onClick={handleBotIconClick} 
+            onTouchStart={handleBotIconTouchStart} // Handle touch events
+            className="chatbot-button"
+          >
             <img src={chatbotIcon} alt="Chatbot Icon" />
           </button>
         </Draggable>
@@ -39,6 +48,6 @@ const PortfolioChatbot = () => {
       )}
     </div>
   );
-}
+};
 
 export default PortfolioChatbot;
