@@ -22,6 +22,7 @@ html {
 }
 
 .chatbot-button {
+  position :fixed;
   background: none;
   border: none;
   cursor: pointer;
