@@ -6,12 +6,12 @@ class ActionProvider {
   }
 
   handleAboutYou = () => {
-    const message = this.createChatBotMessage("I am a web developer and ML enthusiast.");
+    const message = this.createChatBotMessage("I am a Web Developer and ML enthusiast.");
     this.addMessageToState(message);
   }
 
   handleSkills = () => {
-    const message = this.createChatBotMessage("I am skilled in React, Python, Flask, and Machine Learning.");
+    const message = this.createChatBotMessage("I am skilled in React, Python, JavaScript, and Machine Learning.");
     this.addMessageToState(message);
   }
 
@@ -26,12 +26,12 @@ class ActionProvider {
   }
 
   handleExperience = () => {
-    const message = this.createChatBotMessage("I have experience in web development and providing technical support.");
+    const message = this.createChatBotMessage("I have experience in Web Development and providing technical support.");
     this.addMessageToState(message);
   }
 
   handleContact = () => {
-    const message = this.createChatBotMessage("You can contact me at myemail@example.com.");
+    const message = this.createChatBotMessage("You can contact me at brahmadanielkr@gmail.com.");
     this.addMessageToState(message);
   }
 

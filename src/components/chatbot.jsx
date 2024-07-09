@@ -36,6 +36,7 @@ const PortfolioChatbot = () => {
             onTouchStart={handleBotIconTouchStart} // Handle touch events
             className="chatbot-button"
           >
+            <a className="text-white">Tap to Chat!!</a>
             <img src={chatbotIcon} alt="Chatbot Icon" />
           </button>
         </Draggable>
