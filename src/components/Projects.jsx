@@ -23,7 +23,7 @@ const Projects = () => {
             <img src={Net}  alt="Project1"/>
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
             justify-center items-center">
-                <span classname="text-2xl font-bold text-white tracking-wider"></span>
+                <span className="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Netflix-App">
                        <div className="h-2/3">
@@ -45,7 +45,7 @@ const Projects = () => {
             <img src={Gm}  alt="Project2"/>
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
             justify-center items-center">
-                <span classname="text-2xl font-bold text-white tracking-wider"></span>
+                <span className="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Glass-Morphism-Effect-LogIn-Form">
                        <div className="h-2/3">
@@ -68,7 +68,7 @@ const Projects = () => {
             <img src={LC}  alt="Project3"/>
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
             justify-center items-center">
-                <span classname="text-2xl font-bold text-white tracking-wider"></span>
+                <span className="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/LungCancerRiskPrediction">
                        <div className="h-2/3">
@@ -90,7 +90,7 @@ const Projects = () => {
             <img src={Ar}  alt="Project4"/>
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
             justify-center items-center">
-                <span classname="text-2xl font-bold text-white tracking-wider"></span>
+                <span className="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/IGDTUWInternshipProject">
                         <div className="h-2/3">
@@ -112,7 +112,7 @@ const Projects = () => {
             <img src={Opt}  alt="Project5"/>
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
             justify-center items-center">
-                <span classname="text-2xl font-bold text-white tracking-wider"></span>
+                <span className="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Optimization-of-Web-Page-based-on-Network-Bandwidth">
                         <div className="h-2/3">
@@ -134,7 +134,7 @@ const Projects = () => {
             <img src={AC}  alt="Project6"/>
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
             justify-center items-center">
-                <span classname="text-2xl font-bold text-white tracking-wider"></span>
+                <span className="text-2xl font-bold text-white tracking-wider"></span>
                 <div className="pt-8 text-center">
                     <a href="https://github.com/dani8946/Air-Canvas">
                         <div className="h-2/3">

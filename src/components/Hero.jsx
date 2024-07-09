@@ -2,7 +2,16 @@ import React from 'react'
 import heroimage from '../assets/picofme.png'
 import { TypeAnimation } from 'react-type-animation'
 
-const hero = () => {
+
+const Hero = () => {
+  const handleDownload = () => {
+    console.log("clicked!")
+    const url = './Daniel_ASDE.pdf';  // Replace with the correct path to your resume file
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = 'Daniel.pdf';  // Specify the file name
+    anchor.click();
+  };
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8" id="home">
       <div className="col-span-1 my-auto mx-auto  w-[300px] h-auto lg:w-[400px]">
@@ -35,8 +44,8 @@ const hero = () => {
             and ML enthusiast.
         </p>
         <div className="my-8">
-            <a href="/Daniel_ASDE.pdf" className="px-6 py-3 w-full rounded-xl mr-4 
-            text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white" download>
+            <a onClick={handleDownload} className="px-6 py-3 w-full rounded-xl mr-4 
+            text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white cursor-pointer">
                 Download CV
             </a>
             <a href="#contact" className="px-6 py-3 w-full rounded-xl mr-4
@@ -51,4 +60,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero

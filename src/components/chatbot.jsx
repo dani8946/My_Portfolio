@@ -30,8 +30,7 @@ const PortfolioChatbot = () => {
   return (
     <div>
       {showIcon && (
-        <Draggable>
-          <button 
+        <button 
             onClick={handleBotIconClick} 
             onTouchStart={handleBotIconTouchStart} // Handle touch events
             className="chatbot-button"
@@ -39,7 +38,6 @@ const PortfolioChatbot = () => {
             <a className="text-white">Tap to Chat!!</a>
             <img src={chatbotIcon} alt="Chatbot Icon" />
           </button>
-        </Draggable>
       )}
       {showChatbot && (
         <div className="chatbot-container">
