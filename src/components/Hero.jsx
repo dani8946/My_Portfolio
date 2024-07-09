@@ -46,7 +46,7 @@ const hero = () => {
             </a>
         </div>
       </div>
-      <PortfolioChatbot/>
+      
     </div>
   )
 }
