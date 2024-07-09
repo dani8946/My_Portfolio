@@ -35,7 +35,7 @@ const hero = () => {
             and ML enthusiast.
         </p>
         <div className="my-8">
-            <a href="/Recent_Res.pdf" className="px-6 py-3 w-full rounded-xl mr-4 
+            <a href="/Daniel_ASDE.pdf" className="px-6 py-3 w-full rounded-xl mr-4 
             text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white" download>
                 Download CV
             </a>
